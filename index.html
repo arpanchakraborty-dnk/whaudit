@@ -448,7 +448,6 @@ function startApp() {
   const clientId = document.getElementById('client-id').value.trim();
   const sheetId = document.getElementById('sheet-id').value.trim();
   const sheetName = document.getElementById('sheet-name').value.trim() || 'Sheet1';
-  const folderId = document.getElementById('folder-id').value.trim();
 
   if (!clientId || !sheetId) {
     showToast('Please fill in Client ID and Sheet ID', 'error'); return;
